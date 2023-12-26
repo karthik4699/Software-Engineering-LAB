@@ -10,9 +10,9 @@ def calculate_weather(a, b, c):
     return x, y
 
 # Setting values for wind, pressure, and humidity (these can be loaded from files in practice)
-wind = 4
-pressure = 1
-humidity = 3
+wind = 5
+pressure = 2
+humidity = 8
 
 # Calling the calculate_weather function with the given wind, pressure, and humidity values
 x_values, y_values = calculate_weather(wind, pressure, humidity)
